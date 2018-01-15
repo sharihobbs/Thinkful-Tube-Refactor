@@ -1,0 +1,25 @@
+body * {
+  padding-top: 20px;
+  box-sizing: border-box;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.find-button {
+  text-align: center;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.input {
+  font-size: 16px;
+  display: inline-block;
+  padding: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.channel {
+  display: block;
+}
