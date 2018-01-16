@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -11,9 +11,9 @@
   <body>
     <main>
       <h1>Search YouTube</h1>
-      <form class="video-search-form">
-        <input type="text" class="input" placeholder="e.g., laser cats"> 
-        <button type="submit" class="find-button">Find my videos!</button>
+      <form class="video-search-form" id="video-search-term">
+        <input type="text" class="input" placeholder="e.g., laser cats" aria-labelledby="video-search-term"> 
+        <button type="submit" aria-label="submit" class="find-button">Find my videos!</button>
       </form>
       <h2 class="hidden results">Results</h2>
       <div class="search-results">
